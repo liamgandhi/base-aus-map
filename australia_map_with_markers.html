@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e0fbe4f327bd2de84f6f93efb5a31ff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6e0fbe4f327bd2de84f6f93efb5a31ff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6e0fbe4f327bd2de84f6f93efb5a31ff = L.map(
+                "map_6e0fbe4f327bd2de84f6f93efb5a31ff",
+                {
+                    center: [-25.2744, 133.7751],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e416403aee8d71687fa9f66b00c05d20 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e416403aee8d71687fa9f66b00c05d20.addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var marker_fe2254c7fcdb2229353f21a90f3b0607 = L.marker(
+                [-12.414211300000002, 130.89920567746327],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_a63caea729f01a673858c9cb60170dc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe2254c7fcdb2229353f21a90f3b0607.setIcon(icon_a63caea729f01a673858c9cb60170dc1);
+        
+    
+        var popup_d9e5a49c03c5c6f1cbbf7f0c5148482a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64561fcc29df25a9376ce78d4c072524 = $(`<div id="html_64561fcc29df25a9376ce78d4c072524" style="width: 100.0%; height: 100.0%;">RAAF Base Darwin(YPDN)</div>`)[0];
+                popup_d9e5a49c03c5c6f1cbbf7f0c5148482a.setContent(html_64561fcc29df25a9376ce78d4c072524);
+            
+        
+
+        marker_fe2254c7fcdb2229353f21a90f3b0607.bindPopup(popup_d9e5a49c03c5c6f1cbbf7f0c5148482a)
+        ;
+
+        
+    
+    
+            var marker_5b910536f844edcd925aad2984a7c004 = L.marker(
+                [-14.519028899999999, 132.38012915072966],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_9d522356c407278bc6173fa0882dc6b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b910536f844edcd925aad2984a7c004.setIcon(icon_9d522356c407278bc6173fa0882dc6b6);
+        
+    
+        var popup_c692422486fcc79bebe4e31dc53461d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fbf7c662450cc4d7dee3467a60a3649 = $(`<div id="html_2fbf7c662450cc4d7dee3467a60a3649" style="width: 100.0%; height: 100.0%;">RAAF Tindal 14°31′16″S 132°22′40E</div>`)[0];
+                popup_c692422486fcc79bebe4e31dc53461d3.setContent(html_2fbf7c662450cc4d7dee3467a60a3649);
+            
+        
+
+        marker_5b910536f844edcd925aad2984a7c004.bindPopup(popup_c692422486fcc79bebe4e31dc53461d3)
+        ;
+
+        
+    
+    
+            var marker_b0c63327cb884f1931b5e955a17b0525 = L.marker(
+                [-16.260976499999998, 133.37897469889924],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_17fa7cdba032668659af68acf0cfe666 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b0c63327cb884f1931b5e955a17b0525.setIcon(icon_17fa7cdba032668659af68acf0cfe666);
+        
+    
+        var popup_1fde830ffc7d194518c6916a4c483054 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7afe265ff901acd895398363cbd42cbf = $(`<div id="html_7afe265ff901acd895398363cbd42cbf" style="width: 100.0%; height: 100.0%;">Daly Waters 16°15′42″S 133°22′50″E</div>`)[0];
+                popup_1fde830ffc7d194518c6916a4c483054.setContent(html_7afe265ff901acd895398363cbd42cbf);
+            
+        
+
+        marker_b0c63327cb884f1931b5e955a17b0525.bindPopup(popup_1fde830ffc7d194518c6916a4c483054)
+        ;
+
+        
+    
+    
+            var marker_95587ea9e49d664b5fd3c4267206ddcf = L.marker(
+                [-27.630542249999998, 152.69906061370727],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_cf6fe20ff45fac54bef4575de6142f08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_95587ea9e49d664b5fd3c4267206ddcf.setIcon(icon_cf6fe20ff45fac54bef4575de6142f08);
+        
+    
+        var popup_738bf29d0e16a0b0a7942520d9934693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4f6a6bb5b43552cfb139fdc0798a676 = $(`<div id="html_b4f6a6bb5b43552cfb139fdc0798a676" style="width: 100.0%; height: 100.0%;">RAAF Amberley 27°38′26″S 152°42′43″E</div>`)[0];
+                popup_738bf29d0e16a0b0a7942520d9934693.setContent(html_b4f6a6bb5b43552cfb139fdc0798a676);
+            
+        
+
+        marker_95587ea9e49d664b5fd3c4267206ddcf.bindPopup(popup_738bf29d0e16a0b0a7942520d9934693)
+        ;
+
+        
+    
+    
+            var marker_0a2414264a8bad104289026b16012d8a = L.marker(
+                [-12.623244, 142.0860693],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_b22664dd0491b208c43d474805c67dba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0a2414264a8bad104289026b16012d8a.setIcon(icon_b22664dd0491b208c43d474805c67dba);
+        
+    
+        var popup_30177f25fec479475b1b332e0faec378 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db0b7f389181a3a79b93e7fcea5bab55 = $(`<div id="html_db0b7f389181a3a79b93e7fcea5bab55" style="width: 100.0%; height: 100.0%;">RAAF Scherger 12°37′24″S 142°05′12″E</div>`)[0];
+                popup_30177f25fec479475b1b332e0faec378.setContent(html_db0b7f389181a3a79b93e7fcea5bab55);
+            
+        
+
+        marker_0a2414264a8bad104289026b16012d8a.bindPopup(popup_30177f25fec479475b1b332e0faec378)
+        ;
+
+        
+    
+    
+            var marker_2b7d14ffb923a4dba8e651ff2a8708cf = L.marker(
+                [-19.260298, 146.767632],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_7cdf934725cfe7d5b2bf84329bafe778 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2b7d14ffb923a4dba8e651ff2a8708cf.setIcon(icon_7cdf934725cfe7d5b2bf84329bafe778);
+        
+    
+        var popup_55dbe3dc22bdcf4f6346b0fd556a39ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_896a278d948be30ccb8df1b80b47766f = $(`<div id="html_896a278d948be30ccb8df1b80b47766f" style="width: 100.0%; height: 100.0%;">RAAF Townsville 19°15′12″S 146°45′54″E</div>`)[0];
+                popup_55dbe3dc22bdcf4f6346b0fd556a39ea.setContent(html_896a278d948be30ccb8df1b80b47766f);
+            
+        
+
+        marker_2b7d14ffb923a4dba8e651ff2a8708cf.bindPopup(popup_55dbe3dc22bdcf4f6346b0fd556a39ea)
+        ;
+
+        
+    
+    
+            var marker_9a074069d05f632ac6ff6fa90476c531 = L.marker(
+                [-20.0183116, 148.2141015262831],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_842f63ba64e821037b755882836b55e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a074069d05f632ac6ff6fa90476c531.setIcon(icon_842f63ba64e821037b755882836b55e6);
+        
+    
+        var popup_71591d7ec8dbf583691ab2590280c797 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b80d4c04e1d5dbccf79a74ae45f6223 = $(`<div id="html_1b80d4c04e1d5dbccf79a74ae45f6223" style="width: 100.0%; height: 100.0%;">Bowen Airport 20°01′04″S 148°12′55″E</div>`)[0];
+                popup_71591d7ec8dbf583691ab2590280c797.setContent(html_1b80d4c04e1d5dbccf79a74ae45f6223);
+            
+        
+
+        marker_9a074069d05f632ac6ff6fa90476c531.bindPopup(popup_71591d7ec8dbf583691ab2590280c797)
+        ;
+
+        
+    
+    
+            var marker_85815f2e3bfe1f3c07c0f562ae3ca71a = L.marker(
+                [-16.9132804, 145.7703645],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_aa65e5a2e62bcedacffddfa9242f59f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_85815f2e3bfe1f3c07c0f562ae3ca71a.setIcon(icon_aa65e5a2e62bcedacffddfa9242f59f4);
+        
+    
+        var popup_61461f6a7a7ba18887725eb181925abd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3eecbfd6898604757ec843fcc6424aff = $(`<div id="html_3eecbfd6898604757ec843fcc6424aff" style="width: 100.0%; height: 100.0%;">RAAF Cairns 16°53′09″S 145°45′19″E</div>`)[0];
+                popup_61461f6a7a7ba18887725eb181925abd.setContent(html_3eecbfd6898604757ec843fcc6424aff);
+            
+        
+
+        marker_85815f2e3bfe1f3c07c0f562ae3ca71a.bindPopup(popup_61461f6a7a7ba18887725eb181925abd)
+        ;
+
+        
+    
+    
+            var marker_ab5c69d4009335d6db8c16ae5c2c3a3c = L.marker(
+                [-17.580804, 123.82154363476033],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_ff30d80aab84750ecceb559da8adff35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab5c69d4009335d6db8c16ae5c2c3a3c.setIcon(icon_ff30d80aab84750ecceb559da8adff35);
+        
+    
+        var popup_84d44be7bfb5f9400ff5e7cc9bbb4bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6664720691eb58fa7952a680ca7c8914 = $(`<div id="html_6664720691eb58fa7952a680ca7c8914" style="width: 100.0%; height: 100.0%;">RAAF Curtin 17°34′53″S 123°49′42″E</div>`)[0];
+                popup_84d44be7bfb5f9400ff5e7cc9bbb4bb0.setContent(html_6664720691eb58fa7952a680ca7c8914);
+            
+        
+
+        marker_ab5c69d4009335d6db8c16ae5c2c3a3c.bindPopup(popup_84d44be7bfb5f9400ff5e7cc9bbb4bb0)
+        ;
+
+        
+    
+    
+            var marker_62fa2e5692c5394b6ea9dabf08ffec55 = L.marker(
+                [-22.2409283, 114.0953233826033],
+                {}
+            ).addTo(map_6e0fbe4f327bd2de84f6f93efb5a31ff);
+        
+    
+            var icon_d27483ca59879b7f7e38c6cc2e87a58d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_62fa2e5692c5394b6ea9dabf08ffec55.setIcon(icon_d27483ca59879b7f7e38c6cc2e87a58d);
+        
+    
+        var popup_03252285cecbe8f4d5ce96ae76bdfcec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5818ce12312a26307464893f33121343 = $(`<div id="html_5818ce12312a26307464893f33121343" style="width: 100.0%; height: 100.0%;">RAAF Learmonth 22°14′09″S 114°05′19″E</div>`)[0];
+                popup_03252285cecbe8f4d5ce96ae76bdfcec.setContent(html_5818ce12312a26307464893f33121343);
+            
+        
+
+        marker_62fa2e5692c5394b6ea9dabf08ffec55.bindPopup(popup_03252285cecbe8f4d5ce96ae76bdfcec)
+        ;
+
+        
+    
+</script>
+</html>
